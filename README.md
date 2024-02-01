@@ -1,15 +1,17 @@
 # ValorantRoulette
-randomize your team based on your map prefrences 
-this app genrates a 5 agent team unordered.
+Randomize your valorant team based on 3 modes.
+Keep in mind that these agents are unordered.
+
+### Role based Team
+apps default is to return 1 smoker 1 sentinel 1 initiator 2 duelist 
+
+### Random Team
+If selected it will generate fully random team of 5 with random roles.
+
+### Random Agent
+If selected it will generate one random agent of any role.
 
 ## **Run**
-clone repo and run python GUI.py in terminal .
+Download the latest release of the app and install it on your phone.
 
-### **RandomFifth**
-apps default is to return 1 smoker 1 sentinel 1 initiator 1 duelist 
-if RandomFifth is checked last agent will be a random role 
-if its unchecked it will always be a duelist 
 
-### **MapBased**
-if checked the app will generate a team based on the map provided 
-(ps. u can change the prefered agents for each map in the MapBasedAgents.json file )
